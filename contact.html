@@ -33,11 +33,37 @@
 
 <body>
 
+<div class="container">
+  <form action="signup.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Contact Number</label>
+    <input type="text" id="cnumber" name="contactnumber" placeholder="Your contact number..">
+    <label for="Action">Interested in...</label>
+    <select id="action" name="action">
+      <option value="farmmanagement">Gus</option>
+      <option value="italiancooking">Ruby</option>
+      <option value="driving">Boris</option>
+      <option value="volunteertohelp">Volunteer to help</option>
+    </select>
+    <label for="comments">Comments</label>
+    <textarea id="subject" name="subject" placeholder="Any Additional Comments here.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
 <div class="footer">
   <p>Email: paws@gmail.com</p>
   <p>Address: 240 Bainfield Road, Invecargill</p>
   <p>Phone: 0278841187 OR 03 2362709</p>
 </div>
+
 
 </body>
 
