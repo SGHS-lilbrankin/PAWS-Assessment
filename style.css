@@ -194,4 +194,10 @@ html {
 	margin-left:5%;
 }
 
+#.map img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	}
+
 
