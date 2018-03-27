@@ -81,6 +81,11 @@ h1 {
 	text-align: center;
 }
 
+h4	{
+	font-size: 150%;
+	font-family: 'Lato', sans-serif;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -94,7 +99,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #FFEC47;
+    background-color: #72E84D;
     color: black;
     padding: 12px 20px;
     border: none;
@@ -103,7 +108,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #FF9347;
+    background-color: #89E5FF;
 }
 
 .container {
