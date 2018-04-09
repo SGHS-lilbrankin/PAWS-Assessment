@@ -216,12 +216,9 @@ html {
 	}
 	
 .gus img{
-	width: 50%;
-	height: 110%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	float: left;
+	width: 33%;
+	height: 605px;
 }
 
 .logoheader img{
