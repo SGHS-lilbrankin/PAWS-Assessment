@@ -229,6 +229,10 @@ html {
 	float: left;
 	width: 33%;
 }
+.homeimages img{
+	width: 33%;
+	height: 290px;
+}
 
 ul {
 	font-family: 'Lato', sans-serif;
